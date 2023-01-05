@@ -16,6 +16,7 @@ import com.projetospring.course.services.ProductService;
 @RequestMapping(value = "/products")
 public class ProductResource {
 	
+	
 	@Autowired
 	private ProductService service;
 	
